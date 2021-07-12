@@ -1,0 +1,17 @@
+{
+  "javascript": [
+    "~/App_Plugins/ExampleData/exampleDataService.js",
+    "~/App_Plugins/ExampleData/editorController.js"
+  ],
+  "propertyEditors": [
+    {
+      "alias": "exampleDataProperty",
+      "editor": {
+        "valueType": "STRING",
+        "view": "~/App_Plugins/ExampleData/editor.html"
+      },
+      "name": "Example Data Property",
+      "icon": "icon-settings-alt"
+    }
+  ]
+}

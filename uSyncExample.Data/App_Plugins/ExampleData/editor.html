@@ -1,0 +1,12 @@
+﻿<div ng-controller="exampleDataEditController as vm">
+    <select ng-model="model.value"
+            ng-options="option.title for option in vm.data track by option.id"></select>
+
+
+    <div class="mt2">
+        <div><strong>Title :</strong> {{model.value.title}}</div>
+        <div><strong>Desc :</strong> {{model.value.description}}</div>
+        <div><strong>Value :</strong> {{model.value.value}}</div>
+        <div><strong>Created :</strong> {{model.value.created | date }}</div>
+    </div>
+</div>

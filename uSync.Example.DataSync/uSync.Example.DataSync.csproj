@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UmbracoCms.Web" Version="8.14.1" />
+    <PackageReference Include="uSync.BackOffice.Core" Version="8.9.5" />
+    <PackageReference Include="uSync.ContentEdition.Core" Version="8.9.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\uSyncExample.Data\uSyncExample.Data.csproj" />
+  </ItemGroup>
+
+</Project>
